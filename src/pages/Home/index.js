@@ -6,7 +6,7 @@ const POPULAR_GIFS = ["Matrix", "Peru", "Futbol", "Coding", "Universitario de De
 export default function Home() {
     return (
         <>
-            <h3 className="App-Title">Los gifs mas populares</h3>
+            <h3 className="App-title">Los gifs mas populares</h3>
 
             <ul>
                 {POPULAR_GIFS.map((popularGif) => (
